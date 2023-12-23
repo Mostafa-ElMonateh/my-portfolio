@@ -364,7 +364,7 @@ section {
     left: 0;
     height: 100%;
     background-color: var(--color-secondary);
-    animation: skillAnime 2s forwards ease-in-out;
+    animation: skillAnime 4s forwards ease-in-out;
 }
 
 @keyframes skillAnime {
