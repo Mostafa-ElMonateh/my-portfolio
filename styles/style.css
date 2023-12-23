@@ -41,6 +41,7 @@ body {
     font-size: 1.1rem;
     color: var(--color-white);
     transition: all 0.4s ease-in-out;
+    overflow-x: hidden;
 }
 
 a {
@@ -53,7 +54,7 @@ a {
 header {
     height: 100vh;
     color: var(--color-white);
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 section {
@@ -628,7 +629,7 @@ section {
 .contact-content-container .left-contact .contact-info .contact-item {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .contact-content-container .left-contact .contact-info .contact-item p {
@@ -791,3 +792,6 @@ textarea {
     font-weight: 800;
     font-size: 5rem;
 }
+
+
+@import './media.css';
