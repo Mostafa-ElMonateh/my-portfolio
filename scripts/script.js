@@ -3,8 +3,8 @@ const getSecBtnsContainer = document.querySelectorAll('.controllers');
 const getSecBtns = document.querySelectorAll('.controller');
 const getKitchenGithub = document.getElementById('kitchen_restaurant_gitHub');
 const getKitchenLive = document.getElementById('kitchen_restaurant');
-const getStoreGithub = document.getElementById('Store_Management_Sytem_gitHub');
-const getStoreLive = document.getElementById('Store_Management_Sytem');
+const getStoreGithub = document.getElementById('Store_Management_System_gitHub');
+const getStoreLive = document.getElementById('Store_Management_System');
 
 getKitchenGithub.onclick = function() {
     getKitchenGithub.setAttribute('href', 'https://github.com/Mostafa-ElMonateh/ITI-project-HTML_CSS')
