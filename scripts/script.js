@@ -12,6 +12,14 @@ getKitchenLive.onclick = function() {
     getKitchenLive.setAttribute('href', 'https://mostafa-elmonateh.github.io/ITI-project-HTML_CSS/')
 }
 
+getKitchenGithub.onclick = function() {
+    getKitchenGithub.setAttribute('href', 'https://github.com/Mostafa-ElMonateh/Store-Management-System')
+}
+
+getKitchenLive.onclick = function() {
+    getKitchenLive.setAttribute('href', 'https://mostafa-elmonateh.github.io/Store-Management-System/')
+}
+
 
 
 function pageTransitions() {
